@@ -1,0 +1,25 @@
+.testimonials {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.testimonials__title {
+  margin: 60px 0 30px 0;
+  font-family: sans-serif;
+  text-align: center;
+  color: gray;
+}
+
+.testimonials__items {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 15px;
+  row-gap: 30px;
+}
+
+.testimonials__item {
+  height: 200px;
+  border-radius: 8px;
+  background-color: gainsboro;
+}

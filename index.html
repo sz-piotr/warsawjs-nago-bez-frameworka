@@ -4,12 +4,98 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Vanilla is best</title>
+  <title>Generic Startup</title>
 
   <link rel="stylesheet" href="styles/normalize.css">
   <link rel="stylesheet" href="styles/global.css">
+  <link rel="stylesheet" href="styles/services.css">
+  <link rel="stylesheet" href="styles/testimonials.css">
+  <link rel="stylesheet" href="styles/pricing.css">
+  <link rel="stylesheet" href="styles/contact.css">
+  <link rel="stylesheet" href="styles/footer.css">
 </head>
 <body>
+  <header class="navbar">
+    <div class="navbar__brand">Generic Startup</div>
+    <nav class="navbar__links">
+      <ul>
+        <li><a class="navbar__link" href="#services">Services</a></li>
+        <li><a class="navbar__link" href="#testimonials">Testimonials</a></li>
+        <li><a class="navbar__link" href="#pricing">Pricing</a></li>
+        <li><a class="navbar__link" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
+  <section class="slides">
+    <div class="slide slide--yellow">
+      <h1 class="slide__title">Generic Startup</h1>
+      <p class="slide__description">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit debitis illo illum eligendi dolorum nobis.
+      </p>
+    </div>
+    <div class="slide slide--red">
+      <h1 class="slide__title">Amazing opportunities</h1>
+      <p class="slide__description">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+      </p>
+    </div>
+    <div class="slide slide--blue">
+      <h1 class="slide__title">Delivering real value</h1>
+      <p class="slide__description">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum fuga nam eveniet voluptas veniam error laboriosam cum sed omnis id dolore aliquid quisquam similique, ullam ratione fugit numquam eligendi iste!
+      </p>
+    </div>
+  </section>
+
+  <section id="services" class="services">
+    <h2 class="services__title">Services</h2>
+    <div class="services__item">
+      <div class="services__image"></div>
+      <div class="services__description"></div>
+    </div>
+    <div class="services__item services__item--flipped">
+      <div class="services__image"></div>
+      <div class="services__description"></div>
+    </div>
+    <div class="services__item">
+      <div class="services__image"></div>
+      <div class="services__description"></div>
+    </div>
+  </section>
+
+  <section id="testimonials" class="testimonials">
+    <h2 class="testimonials__title">Testimonials</h2>
+    <div class="testimonials__items">
+      <div class="testimonials__item"></div>
+      <div class="testimonials__item"></div>
+      <div class="testimonials__item"></div>
+      <div class="testimonials__item"></div>
+    </div>
+  </section>
+
+  <section id="pricing" class="pricing">
+    <h2 class="pricing__title">Pricing</h2>
+    <div class="pricing__items">
+      <div class="pricing__item"></div>
+      <div class="pricing__item pricing__item--main"></div>
+      <div class="pricing__item"></div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2 class="contact__title">Contact</h2>
+    <div class="contact__label"></div>
+    <div class="contact__input"></div>
+    <div class="contact__label"></div>
+    <div class="contact__input"></div>
+    <div class="contact__label"></div>
+    <div class="contact__textarea"></div>
+    <div class="contact__button"></div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer__content"></div>
+  </footer>
 </body>
 </html>

@@ -1,0 +1,11 @@
+.footer {
+  max-width: 1100px;
+  margin: 60px auto 0 auto;
+  padding: 0 15px;
+}
+
+.footer__content {
+  background-color: gainsboro;
+  height: 400px;
+  border-radius: 8px;
+}

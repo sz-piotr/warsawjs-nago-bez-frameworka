@@ -1,0 +1,68 @@
+.hero {
+  position: relative;
+  height: 90vh;
+  background-color: black;
+}
+
+.hero__slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+  z-index: 1;
+  transition: 1s ease-in-out;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0 64px;
+  text-shadow: 1.5px 1.5px 3px black;
+}
+
+.hero__slide--hidden {
+  z-index: 0;
+  opacity: 0;
+}
+
+.hero__text {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.hero__description {
+  font-size: 1.5rem;
+  max-width: 650px;
+}
+
+.hero__learn-more {
+  color: inherit;
+  text-decoration: none;
+  text-shadow: inherit;
+  background-color: transparent;
+  padding: 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.hero__slide:nth-child(1) {
+  background-image: url('../images/santa-1.jpg');
+}
+
+.hero__slide:nth-child(2) {
+  background-image: url('../images/santa-2.jpg');
+  background-position: top center;
+}
+
+.hero__slide:nth-child(3) {
+  background-image: url('../images/santa-3.jpg');
+  background-position: 20% center;
+  align-items: flex-end;
+}
